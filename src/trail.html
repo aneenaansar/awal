@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./owl.carousel.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+
+    <!-- Owl Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+<body>
+    <div class="relative">
+        <div class="owl-carousel">
+            <div class="owl-carousel-item">
+                <img src="./images/1_1.webp" alt="" class="h-[60vh] w-[100%]">
+            </div>
+            <div>
+                <img src="./images/1.2.webp" alt="">
+            </div>
+            <!-- Add more carousel items here -->
+        </div>
+        <div class="absolute top-1/2 left-[20%]">
+            <h1 class="text-5xl">BD35.00</h1>
+            <button class="bg-black hover:bg-gray-900 text-white py-2 px-8 rounded mt-5 transition-colors">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping text-white"></i>
+                    ADD TO CART
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./owl.carousel.min.js"></script>
+        <script>
+       $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+</script>
+
+</script>
+</body>
+</html>

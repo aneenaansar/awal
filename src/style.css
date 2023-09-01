@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.owl-prev , .owl-next{
+    background-color: gray !important;
+    height: 30px;
+    width: 30px;
+}
+.owl-prev:hover, .owl-next:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.owl-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+@keyframes fadeInOpacity {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.hloo{
+    animation: fadeInOpacity 2s ease-in-out;
+}
